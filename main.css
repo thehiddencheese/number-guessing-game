@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,107,141,1) 0%, rgba(0,69,91,1) 90% );
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.container {
+    margin: auto;
+    padding: 15% !important;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+h1 {
+    padding-bottom: 10%;
+    font-size: vh !important;
+}
